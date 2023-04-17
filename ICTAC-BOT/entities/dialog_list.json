@@ -1,0 +1,9 @@
+{
+  "id": "d7b02478-6d4c-4189-be53-05a296786c31",
+  "name": "dialog_list",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

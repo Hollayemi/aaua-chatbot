@@ -1,0 +1,33 @@
+[
+  {
+    "value": "department",
+    "synonyms": [
+      "department",
+      "dept",
+      "depatm"
+    ]
+  },
+  {
+    "value": "level",
+    "synonyms": [
+      "level",
+      "lvl",
+      "L"
+    ]
+  },
+  {
+    "value": "matic number",
+    "synonyms": [
+      "matic number",
+      "matric",
+      "matriculation number"
+    ]
+  },
+  {
+    "value": "faculty",
+    "synonyms": [
+      "faculty",
+      "fac"
+    ]
+  }
+]

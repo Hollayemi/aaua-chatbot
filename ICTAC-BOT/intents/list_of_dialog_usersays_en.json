@@ -1,0 +1,67 @@
+[
+  {
+    "id": "223f3ab5-fa30-4f20-a808-915c179b3ff5",
+    "data": [
+      {
+        "text": "I have a complaint",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c6d4a8e3-6753-408c-ae98-78fcf7c04d3f",
+    "data": [
+      {
+        "text": "I have a problem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "281b8d95-1ac4-4167-ae02-dabdd9f8c9f6",
+    "data": [
+      {
+        "text": "I need help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f710f227-71a7-437e-871b-36572eab2f93",
+    "data": [
+      {
+        "text": "How can you help me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "19e464bf-851d-44ec-bca6-15f535ad4641",
+    "data": [
+      {
+        "text": "what can i do here",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
