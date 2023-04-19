@@ -1,9 +1,0 @@
-{
-  "id": "d16f2316-83c7-4b2f-90c4-dec17f9e5d79",
-  "name": "stud-details",
-  "isOverridable": true,
-  "isEnum": true,
-  "isRegexp": false,
-  "automatedExpansion": false,
-  "allowFuzzyExtraction": false
-}
