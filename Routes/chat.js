@@ -6,7 +6,7 @@ const {chatBot, getComplains, getAllComplains, removeComplain, updateComplains} 
 
 router.post('/chat', verifyTokenAndAuthorization, chatBot);
 router.get('/complains', verifyTokenAndAuthorization, getComplains);
-router.get('/update-complain', verifyTokenAndAuthorization, updateComplains);
+router.patch('/update-complain', verifyTokenAndAuthorization, updateComplains);
 router.delete('/remove-complain/:id', verifyTokenAndAuthorization, removeComplain);
 router.get('/all-complains', verifyTokenAndAuthorization, getAllComplains);
 

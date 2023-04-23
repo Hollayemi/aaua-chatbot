@@ -38,7 +38,7 @@ app.get('/website', async (req, res) => {
 
 
 
-app.listen(process.env.PORT || 3030, () => {
+app.listen(process.env.PORT || 2020, () => {
     console.log(`server running at port ${process.env.PORT}`);
 });
 

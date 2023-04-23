@@ -4,6 +4,7 @@ const complaints = new mongoose.Schema({
     logger: {type: String, required: true},
     message: {type: String, required: true},
     parameter: {type: String, required: true},
+    feedback: {type: String},
     ictacStaff: {type: String},
     status: {type: String, default: "pending"},
     token: {type: String},

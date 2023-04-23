@@ -11,6 +11,16 @@ const userValidation = data => {
     return schema.validate(data)
 }
 
+const adminValidation = data => {
+    const schema = Joi.object({
+        name: Joi.string().min(5).required(),
+        email: Joi.string().required().email(),
+        password: Joi.string().required().min(6),
+    })
+
+    return schema.validate(data)
+}
+
 const validateComplaint = data => {
     const schema = Joi.object({
         text: Joi.string().required(),
@@ -32,5 +42,6 @@ const validateLogin = data => {
 module.exports = {
     userValidation,
     validateComplaint,
-    validateLogin
+    validateLogin,
+    adminValidation
 }

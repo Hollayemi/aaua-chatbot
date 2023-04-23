@@ -16,20 +16,15 @@ const CREDENTIALS = {
   ;
 
 const PROJECID = CREDENTIALS.project_id;
-
 const CONFIGURATION = {
     credentials: {
         private_key: CREDENTIALS.private_key,
         client_email: CREDENTIALS.client_email
     }
 }
-
 const sessionClient = new dialogflow.SessionsClient(CONFIGURATION);
-
 const detectIntent = async (languageCode, queryText, sessionId) => {
-
     let sessionPath = sessionClient.projectAgentSessionPath(PROJECID, sessionId);
-
     let request = {
         session: sessionPath,
         queryInput: {

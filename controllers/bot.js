@@ -47,14 +47,15 @@ exports.getAllComplains = async (req, res) => {
 
 exports.updateComplains = async (req, res) => {
     try {
-        await sensorNode.findOneAndUpdate({_id: req.body.id},{
-            $set: {status: req.body.status}
+        await complainSchema.findOneAndUpdate({_id: req.body.id},{
+            $set: {...req.body}
         },
         {new:true}
         );
         const complains = await complainSchema.find({ status: 'pending' });
         return res.status(200).json({data: complains, status: "success"})
     } catch (error) {
+        console.log(error);
         return res.status(500).send({message:"server error", status:"error"})
     }
 };
